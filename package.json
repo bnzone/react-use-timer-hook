@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "A basic useInterval hook for React. Works just like you would expect setInterval to work.",
   "author": "bnzone",
+  "keywords": [
+    "timer",
+    "hook",
+    "react",
+    "setInterval",
+    "interval"
+  ],
   "license": "MIT",
   "repository": "bnzone/react-use-interval-hook",
   "main": "dist/index.js",
