@@ -1,21 +1,19 @@
-import * as React from 'react'
+import * as React from "react";
 
-export const useMyHook = () => {
-  let [{
-    counter
-  }, setState] = React.useState({
-    counter: 0
-  })
+export const useInterval = (callback, delay = 1000) => {
+  const savedCallback = React.useRef();
 
   React.useEffect(() => {
-    let interval = window.setInterval(() => {
-      counter++
-      setState({counter})
-    }, 1000)
-    return () => {
-      window.clearInterval(interval)
-    }
-  }, [])
+    savedCallback.current = callback;
+  }, [callback]);
 
-  return counter
-}
+  React.useEffect(() => {
+    function tick() {
+      savedCallback.current();
+    }
+    if (delay !== null) {
+      const id = setInterval(tick, delay);
+      return () => clearInterval(id);
+    }
+  }, [delay]);
+};

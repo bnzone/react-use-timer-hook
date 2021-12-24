@@ -1,6 +1,6 @@
 {
-  "name": "react-use-timer-hook-example",
-  "homepage": "https://bnzone.github.io/react-use-timer-hook",
+  "name": "react-use-interval-hook-example",
+  "homepage": "https://bnzone.github.io/react-use-interval-hook",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,

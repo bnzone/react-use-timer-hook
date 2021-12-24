@@ -1,6 +1,6 @@
 {
-  "short_name": "react-use-timer-hook",
-  "name": "react-use-timer-hook",
+  "short_name": "react-use-interval-hook",
+  "name": "react-use-interval-hook",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",

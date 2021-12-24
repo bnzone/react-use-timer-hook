@@ -1,10 +1,10 @@
 {
-  "name": "react-use-timer-hook",
+  "name": "react-use-interval-hook",
   "version": "1.0.0",
-  "description": "A very basic timer hook for react",
+  "description": "A basic useInterval hook for React. Works just like you would expect setInterval to work.",
   "author": "bnzone",
   "license": "MIT",
-  "repository": "bnzone/react-use-timer-hook",
+  "repository": "bnzone/react-use-interval-hook",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -13,8 +13,6 @@
     "npm": ">=5"
   },
   "scripts": {
-    "test": "cross-env CI=1 react-scripts test --env=jsdom",
-    "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
     "start": "rollup -c -w",
     "prepare": "npm run build",
