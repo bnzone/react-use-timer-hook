@@ -1,4 +1,4 @@
-# react-use-timer-hook
+# react-use-interval-hook
 
 > A basic useInterval hook for React. Works just like you would expect setInterval to work.
 
