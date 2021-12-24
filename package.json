@@ -1,6 +1,6 @@
 {
   "name": "react-use-interval-hook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A basic useInterval hook for React. Works just like you would expect setInterval to work.",
   "author": "bnzone",
   "keywords": [
